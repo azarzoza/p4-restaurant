@@ -1,7 +1,12 @@
 
 body {
+<<<<<<< HEAD
 	background: url('../img/concrete_seamless.png');
 	background-attachment: fixed;
+=======
+	background: #AFFEE7;
+	display: auto;
+>>>>>>> FETCH_HEAD
 }
 
 h1 {
