@@ -1,4 +1,4 @@
-$('div').click(function(){
+$('div').hover(function(){
   
   // Expand to show caption on _this_ div, and only _this_ div
   $(this).toggleClass('showcaption');

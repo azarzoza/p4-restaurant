@@ -1,13 +1,14 @@
 
 body {
-<<<<<<< HEAD
-	background: url('../img/concrete_seamless.png');
+
+	background: url('../img/ricepaper.png');
 	background-attachment: fixed;
-=======
-	background: #AFFEE7;
+	
 	display: auto;
->>>>>>> FETCH_HEAD
 }
+
+  
+
 
 h1 {
 	font-size: 2em;
@@ -17,10 +18,12 @@ h1 {
 
 h2 {
 	font-family: 'Dekko', cursive;
+	text-align: center;
 }
 
 li {
 	list-style: none;
+	text-align: left;
 }
 
 p {
@@ -30,6 +33,11 @@ p {
 
 
 /*Sushi Prices */
+
+.price {
+	color: white;
+}
+
 .yellow {
 	color: #FFFB0A;
 }
@@ -48,15 +56,18 @@ p {
 
 /*Show Sushi Roll Description */
 div {
-  background: #CCDAF5; 
+  
   float: left;
   overflow: hidden;
   height: 150px;
   width: 150px;
-  transition: height 1s;
+  transition: height 2s;
+
 }
 
 .showcaption {
-  height: 275px; 
+  height: 100%; 
+  transition: height 1s;
+
 }
 /*End description */
