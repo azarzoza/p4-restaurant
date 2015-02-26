@@ -54,6 +54,13 @@ p {
  	color: #349D55;
 }
 
+/*categories*/
+
+.fish {
+	padding: -5px;
+	margin: -5px;
+}
+
 /*Show Sushi Roll Description */
 div {
   
