@@ -24,6 +24,7 @@ h2 {
 li {
 	list-style: none;
 	text-align: left;
+	
 }
 
 p {
@@ -57,9 +58,23 @@ p {
 /*categories*/
 
 .fish {
-	padding: -5px;
+	padding: -5px 0px 0px 0px;
 	margin: -5px;
+
+	}
+
+.category {
+	
+	padding: 0px;
 }
+
+
+/*images*/
+
+.belt {
+	padding: 25px;
+}
+
 
 /*Show Sushi Roll Description */
 div {
@@ -78,3 +93,68 @@ div {
 
 }
 /*End description */
+
+
+.footer {
+	text-align: center;
+	font-size: .5em;
+}
+
+
+/*Media Queries*/
+
+/* Tablet */
+@media screen and (max-width: 768px) {
+  
+  body {
+  	background-color: green;
+    margin: auto;
+    display: inline-block;
+  }
+
+section.eight {
+    margin: auto;
+   width: 66%;
+}
+
+
+.navigation {
+  width: 100%;
+}
+
+
+
+ }
+
+
+
+/* Mobile */
+@media screen and (max-width: 480px) {
+  
+  body {
+    
+    margin: auto;
+    position: relative;
+  }
+
+  section.four {
+    margin: auto;
+    width: 100%;
+  }
+
+  .navigation {
+  width: 100%;
+}
+
+.control-button {
+  width: 100%;
+}
+
+h2.thumbnail {
+  width: 66%;
+
+}
+
+}
+
+
