@@ -19,3 +19,4 @@ var msg2 = 'All Your Sushi Needs in One Place!';
 $('h2').text( eval('msg' + numRand) );
 
 console.log( eval('msg' + numRand) );
+
