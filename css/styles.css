@@ -1,3 +1,57 @@
+
 body {
-	background: #AFFEE7;
+	background: url('../img/concrete_seamless.png');
+	background-attachment: fixed;
 }
+
+h1 {
+	font-size: 2em;
+	text-align: center;
+	font-family: 'Courgette', cursive;
+}
+
+h2 {
+	font-family: 'Dekko', cursive;
+}
+
+li {
+	list-style: none;
+}
+
+p {
+	line-height: 1.3em;
+	text-align: left;
+}
+
+
+/*Sushi Prices */
+.yellow {
+	color: #FFFB0A;
+}
+
+.blue {
+	color: #4797C2;
+}
+
+.red {
+	color: #C2142B;
+}
+
+.green {
+ 	color: #349D55;
+}
+
+/*Show Sushi Roll Description */
+div {
+  background: #CCDAF5; 
+  float: left;
+  overflow: hidden;
+  height: 150px;
+  width: 150px;
+  transition: height 1s;
+}
+
+.showcaption {
+  height: 275px; 
+}
+/*End description */
