@@ -11,19 +11,24 @@ body {
 
 
 h1 {
-	font-size: 2em;
+	font-size: 3em;
 	text-align: center;
 	font-family: 'Courgette', cursive;
 }
 
 h2 {
-	font-family: 'Dekko', cursive;
+	font-family: 'Courgette', cursive;
 	text-align: center;
+}
+
+h3 {
+	font-family: 'Roboto', sans-serif;
+	text-align: left;
 }
 
 li {
 	list-style: none;
-	text-align: left;
+	
 	
 }
 
