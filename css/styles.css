@@ -28,7 +28,7 @@ li {
 }
 
 p {
-	line-height: 1.3em;
+	line-height: 1.5em;
 	text-align: left;
 }
 
@@ -68,6 +68,10 @@ p {
 	padding: 0px;
 }
 
+.spicy {
+	padding: -5px 0px 0px 0px;
+	margin: -5px;
+}
 
 /*images*/
 
