@@ -37,15 +37,19 @@ p {
 	text-align: left;
 }
 
+img {
+	border-radius: 35%;
+}
+
 
 /*Sushi Prices */
 
 .price {
-	color: white;
+	color: #BCBCBC;
 }
 
 .yellow {
-	color: #FFFB0A;
+	color: #F8CA00;
 }
 
 .blue {
@@ -69,8 +73,8 @@ p {
 	}
 
 .category {
-	
-	padding: 0px;
+	margin: -5px;
+	padding: 0 10px 0 10px;
 }
 
 .spicy {
@@ -104,9 +108,11 @@ div {
 /*End description */
 
 
-.footer {
+footer {
 	text-align: center;
-	font-size: .5em;
+	font-size: .25em;
+	font-family: 'Roboto', sans-serif;
+	padding: 10px;
 }
 
 
@@ -126,10 +132,6 @@ section.eight {
    width: 66%;
 }
 
-
-.navigation {
-  width: 100%;
-}
 
 
 
@@ -151,18 +153,6 @@ section.eight {
     width: 100%;
   }
 
-  .navigation {
-  width: 100%;
-}
-
-.control-button {
-  width: 100%;
-}
-
-h2.thumbnail {
-  width: 66%;
-
-}
 
 }
 
